@@ -18,6 +18,41 @@ In this exercise, you will:
 1. Customize your codespace
 1. Practice using the codespace
 
+## Run the Flask App
+
+This repository includes a simple Flask application located at `src/hello.py`.
+
+### 1. Create a Python virtual environment
+
+python3 -m venv .venv
+
+### 2. Activate the virtual environment
+
+source .venv/bin/activate
+
+
+### 3. Install Flask
+
+pip install flask
+
+
+### 4. Start the application
+
+python src/hello.py
+
+The application will start on:
+
+http://127.0.0.1:5000
+
+
+When using GitHub Codespaces, open the forwarded port `5000` to access the application in your browser.
+
+### Example
+
+The application displays:
+
+> Completed during MLH Global Hack Week: Hacktoberfest.
+
 ### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
